@@ -23,3 +23,9 @@ Performance on Class 1 (High-Risk Loan):
 - Class Imbalance Impact: The large difference in class sizes (18,765 healthy loans vs. 619 high-risk loans) favors predicting the 0 class. This imbalance results in a slightly lower performance on class 1.
 
 In conclusion, the model is excellent at predicting healthy loans, though it could be optimized further for identifying high-risk loans. Handling class imbalance, such as by adjusting decision thresholds or using oversampling/undersampling techniques, may improve predictions for high-risk loans (1).
+
+## Source Files
+
+Credit_Risk\credit_risk_classification.ipynb - notebook that contains all requirements as listed in instructions
+
+Credit_Risk\Resources\lending_data.csv - source of data used in notebook
